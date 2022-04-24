@@ -1,17 +1,18 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-function navbar() {
+function Navbar() {
   return (
     <nav>
         <h2>Logo</h2>
         <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Produv</li>
-            <li></li>
+            <li><Link to='/'>Home</Link></li>
+            <li><Link to='/about'>About Us</Link></li>
+            <li><Link to='/products'>Products</Link></li>
+            <li><Link to='/contact'>Contact</Link></li>
         </ul>
     </nav>
   )
 }
 
-export default navbar
+export default Navbar

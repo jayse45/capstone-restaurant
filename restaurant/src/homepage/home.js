@@ -1,6 +1,6 @@
 import React from 'react'
 
-function home() {
+function Home() {
   return (
     <section>
         <h1>Ghana Jollof or Nigerian Jollof</h1>
@@ -9,4 +9,4 @@ function home() {
   )
 }
 
-export default home
+export default Home
