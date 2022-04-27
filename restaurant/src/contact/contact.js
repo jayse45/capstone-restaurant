@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+ 
+function Contact (){
+ return <address>
+            Send us a mail:<br />
+            capstone-restaurant <br />
+           hello@capstone-restaurant.ng
 
-function Contact() {
-  return (
-    <div>contact</div>
-  )
+        </address>
 }
-
-export default Contact
