@@ -8,3 +8,5 @@ function Contact (){
 
         </address>
 }
+
+export default Contact
