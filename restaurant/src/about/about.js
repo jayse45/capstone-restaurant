@@ -1,7 +1,7 @@
 import React from 'react';
  
 function About () {
-    return <div>
+    return <div style={{textAlign: "center"}}>
         <h2>SIde Hustle is a computer science portal for gurus!</h2>
  
         Read more about us at :
